@@ -1,0 +1,8 @@
+.resume-item{
+    overflow:auto; 
+    /* color: #fff; */
+}
+
+.resume-item:hover {
+    color: #bac964;
+}

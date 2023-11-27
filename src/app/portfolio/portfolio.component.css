@@ -1,0 +1,41 @@
+.card{
+    color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+.card:hover{
+    color: #b2c251;
+}
+
+.popup {
+    position: fixed;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    top: 50%; left: 50%; transform: translate(-50%, -50%);
+    background: #333;
+    z-index: 20;
+    border-radius: 3px;
+
+    -webkit-box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+.popupImage
+{
+  max-height: 666px; 
+  /* float: left; */
+}
+
+.gameImage
+{
+  max-height: 200px; 
+  margin-right: 5px;
+  display: block;
+  float: left;
+}
+
+video {
+  max-height: 666px; 
+  height: auto;
+  width: 100%;
+}

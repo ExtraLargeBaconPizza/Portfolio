@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@import './assets/css/animate.css';
+@import './assets/css/bootstrap.css';
+@import './assets/css/style.css';
+@import './assets/fonts/icomoon/style.css';
+
+/* programming languages and tools logos */
+@import 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css';

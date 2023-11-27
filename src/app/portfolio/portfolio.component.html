@@ -1,0 +1,141 @@
+<section class="site-section" id="section-portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section-heading text-center col-md-12">
+                <h2>Featured <strong>Portfolio</strong></h2>
+            </div>
+        </div>
+
+        <div class="card-columns">
+
+            <div class="card blog-entry" (click)="showPopupBitesquad = true">
+              <img class="card-img-top" src="../../assets/images/portfolio/bitsquad/bitesquad2.png">
+              <div class="card-body">
+                <h5 class="card-title text-center">BiteSquad</h5>
+                <p class="card-text text-center site-link">Android and iOS Apps <i class="icon-chevron-right"></i></p>
+              </div>
+            </div>
+            <div class="popup"  *ngIf="showPopupBitesquad">
+                <video class="popupContent" controls>
+                    <source src="../../assets/images/portfolio/bitsquad/FULL APP VIDEO.mov" type="video/mp4">
+                  </video>
+            
+                <div>Full BiteSquad Consumer App demonstration video</div>
+                <button class="btn btn-primary float-right" (click)="showPopupBitesquad = false"> Close </button>
+            </div>
+
+            <div class="card blog-entry" (click)="showPopupBiointeractive = true">
+                <img class="card-img-top" src="../../assets/images/portfolio/biointeractive/20171124-VC+RENDERS-3.png">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Tenzr Health</h5>
+                  <p class="card-text text-center site-link">Mobile Apps, Game Demos, and Ui Design<i class="icon-chevron-right"></i></p>
+                </div>
+            </div>
+            <div class="popup" *ngIf="showPopupBiointeractive">
+                <video class="popupContent" controls>
+                    <source src="../../assets/images/portfolio/biointeractive/1 - SFU NEWS Wristband.mp4" type="video/mp4">
+                  </video>
+            
+                <div>All software in this demo video was created by me</div>
+                <button class="btn btn-primary float-right" (click)="showPopupBiointeractive = false"> Close </button>
+            </div>
+
+            <div class="card blog-entry" (click)="showPopupVolcano = true">
+                <img class="card-img-top" src="../../assets/images/portfolio/volcano/volcano.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Volcano Art Car</h5>
+                    <p class="card-text text-center site-link">Interactive LED Art Installation <i class="icon-chevron-right"></i></p>
+                </div>
+            </div>
+            <div class="popup" *ngIf="showPopupVolcano">
+                <img class="popupImage" src="../../assets/images/portfolio/volcano/volcano.jpg">
+                <div>This is the only photo I recieved of the fully implemented project</div>
+                <button class="btn btn-primary float-right" (click)="showPopupVolcano = false"> Close </button>
+            </div>
+
+            <a class="card blog-entry" href="https://litheon.net/" target="_blank">
+                <img class="card-img-top" src="../../assets/images/portfolio/litheon/Screen Shot 2023-11-07 at 6.15.35 PM.png">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Litheon</h5>
+                    <p class="card-text text-center site-link">Web Dev <i class="icon-chevron-right"></i></p>
+                </div>
+            </a>
+
+            <a class="card blog-entry" href="https://www.treelinemassagetherapy.com/" target="_blank">
+                <img class="card-img-top" src="../../assets/images/portfolio/treeline/treeline.png">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Treeline Massage Therapy</h5>
+                    <p class="card-text text-center site-link">Web Dev <i class="icon-chevron-right"></i></p>
+                </div>
+            </a>
+
+            <a class="card blog-entry" href="https://play.google.com/store/apps/details?id=com.xlbp.afridgetoofar&hl=en_CA&gl=US" target="_blank">
+                <img class="card-img-top" src="../../assets/images/portfolio/afridgetoofar/1.png">
+                <div class="card-body">
+                    <h5 class="card-title text-center">A Fridge Too Far</h5>
+                    <p class="card-text text-center site-link">Android App <i class="icon-chevron-right"></i></p>
+                </div>
+            </a>
+
+            <a class="card blog-entry" href="https://chromewebstore.google.com/detail/reddit-ad-blocker/ikfphehapjecfjflnjagoaapglaihehn" target="_blank">
+                <img class="card-img-top" src="../../assets/images/portfolio/redditadblock/RedditAdBlock.png">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Reddit Ad Blocker</h5>
+                    <p class="card-text text-center site-link">Chrome Extension <i class="icon-chevron-right"></i></p>
+                </div>
+            </a>
+
+            <div class="card blog-entry" (click)="showPopupVideoGames = true">
+                <img class="card-img-top" src="../../assets/images/portfolio/videogames/flipcup1.jpeg">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Flip Cup</h5>
+                    <p class="card-text text-center site-link">Unity3D <i class="icon-chevron-right"></i></p>
+                </div>
+            </div>
+            <div class="popup" *ngIf="showPopupVideoGames" >
+                <img class="popupImage" src="../../assets/images/portfolio/videogames/flicup2.jpeg">
+                <div>Flip Cup was a mobile game deployed to Android and iOS</div>
+                <button class="btn btn-primary float-right" (click)="showPopupVideoGames = false"> Close </button>
+            </div>
+
+            <div class="card blog-entry" (click)="showPopupGlobal = true">
+                <img class="card-img-top" src="../../assets/images/portfolio/globaladvantage/Global.jpeg">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Global Advantage</h5>
+                    <p class="card-text text-center site-link">Web Dev <i class="icon-chevron-right"></i></p>
+                </div>
+            </div>
+            <div class="popup" *ngIf="showPopupGlobal" >
+                <img class="popupImage" src="../../assets/images/portfolio/globaladvantage/Global.jpeg">
+                <div>Company Website made for Global Advantage Consulting in 2012. It was built with WordPress and tailored specifically to Global Advantages requirements.</div>
+                <button class="btn btn-primary float-right" (click)="showPopupGlobal = false"> Close </button>
+            </div>
+
+            <div class="card blog-entry" (click)="showPopupGFunds = true">
+                <img class="card-img-top" src="../../assets/images/portfolio/gfunds/Gfunds.jpeg">
+                <div class="card-body">
+                    <h5 class="card-title text-center">GFunds</h5>
+                    <p class="card-text text-center site-link">Web Dev <i class="icon-chevron-right"></i></p>
+                </div>
+            </div>
+            <div class="popup" *ngIf="showPopupGFunds" >
+                <img class="popupImage" src="../../assets/images/portfolio/gfunds/Gfunds.jpeg">
+                <div>Gfunds allowed users to navigate over 530 Federal and Provincial funding programs</div>
+                <button class="btn btn-primary float-right" (click)="showPopupGFunds = false"> Close </button>
+            </div>
+
+            <div class="card blog-entry" (click)="showPopupInnovation = true">
+                <img class="card-img-top" src="../../assets/images/portfolio/datavis/GlobalAdvantage_Map2.jpeg">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Innovation Maps</h5>
+                    <p class="card-text text-center site-link">Interactive Data Visualization <i class="icon-chevron-right"></i></p>
+                </div>
+            </div>
+            <div class="popup" *ngIf="showPopupInnovation" >
+                <img class="popupImage" src="../../assets/images/portfolio/datavis/GlobalAdvantage_Map2.jpeg">
+                <div>Innovation Maps is a product line of Global Advantage Consulting. It deals with representing an innovation system graphically. When larger innovation systems such as a Canada’s Innovation Ecosystem, the graphical representations become fairly large. My task was to create a system for viewing and interacting with these large graphics.</div>
+                <button class="btn btn-primary float-right" (click)="showPopupInnovation = false"> Close </button>
+            </div>
+        </div>
+    </div>
+</section>
